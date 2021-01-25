@@ -1859,6 +1859,7 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.runtime
 
 Vue.use(vue_router__WEBPACK_IMPORTED_MODULE_4__.default);
 Vue.use((vue_axios__WEBPACK_IMPORTED_MODULE_1___default()), (axios__WEBPACK_IMPORTED_MODULE_2___default()));
+Vue.component('personstable', __webpack_require__(/*! ./components/PersonsTable.vue */ "./resources/js/components/PersonsTable.vue"));
 var router = new vue_router__WEBPACK_IMPORTED_MODULE_4__.default({
   mode: 'history',
   routes: _routes__WEBPACK_IMPORTED_MODULE_3__.routes
@@ -1915,21 +1916,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "routes": () => /* binding */ routes
 /* harmony export */ });
-/* harmony import */ var _PersonsTable_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./PersonsTable.vue */ "./resources/js/PersonsTable.vue");
-/* harmony import */ var _PersonsTable_vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_PersonsTable_vue__WEBPACK_IMPORTED_MODULE_0__);
+Object(function webpackMissingModule() { var e = new Error("Cannot find module './PersonsTable.vue'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
 
 var routes = [{
   name: 'home',
   path: '/',
-  component: (_PersonsTable_vue__WEBPACK_IMPORTED_MODULE_0___default())
+  component: Object(function webpackMissingModule() { var e = new Error("Cannot find module './PersonsTable.vue'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())
 }, {
   name: 'add',
   path: '/add',
-  component: (_PersonsTable_vue__WEBPACK_IMPORTED_MODULE_0___default())
+  component: Object(function webpackMissingModule() { var e = new Error("Cannot find module './PersonsTable.vue'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())
 }, {
   name: 'edit',
   path: '/edit/:id',
-  component: (_PersonsTable_vue__WEBPACK_IMPORTED_MODULE_0___default())
+  component: Object(function webpackMissingModule() { var e = new Error("Cannot find module './PersonsTable.vue'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())
 }];
 
 /***/ }),
@@ -30854,10 +30854,10 @@ if (inBrowser) {
 
 /***/ }),
 
-/***/ "./resources/js/PersonsTable.vue":
-/*!***************************************!*\
-  !*** ./resources/js/PersonsTable.vue ***!
-  \***************************************/
+/***/ "./resources/js/components/PersonsTable.vue":
+/*!**************************************************!*\
+  !*** ./resources/js/components/PersonsTable.vue ***!
+  \**************************************************/
 /***/ (() => {
 
 throw new Error("Module parse failed: Unexpected token (1:0)\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\n> <template>\n|     <div>\n|         <h3 class=\"text-center\">Persons</h3>");

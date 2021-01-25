@@ -9,6 +9,7 @@ import {routes} from './routes';
  
 Vue.use(VueRouter);
 Vue.use(VueAxios, axios);
+Vue.component('personstable', require('./components/PersonsTable.vue'));
  
 const router = new VueRouter({
     mode: 'history',

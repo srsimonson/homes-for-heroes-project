@@ -16,7 +16,9 @@
             <tr v-for="person in persons" :key="person.id">
                 <td>{{ person.first_name }}</td>
                 <td>{{ person.last_name }}</td>
-                <td>{{ person.age }}</td>
+                <td>
+                    <input v-model="person.age" placeholder="age">
+                </td>
                 <td>{{ person.phase }}</td>
                 <td>{{ person.status }}</td>
             </tr>

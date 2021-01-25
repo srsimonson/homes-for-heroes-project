@@ -11,3 +11,4 @@ Contact the database adminstrator to create a username and password to enter int
     DB_USERNAME= < ... >
     DB_PASSWORD= < ... >
 
+php artisan serve runs the app locally on http://127.0.0.1:8000/
