@@ -1,12 +1,10 @@
 <?php
 
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Factories\HasFactory;
+namespace App;
+ 
 use Illuminate\Database\Eloquent\Model;
-
+ 
 class Post extends Model
 {
-    use HasFactory;
-    protected $fillable = ['first_name', 'last_name', 'age', 'phase', 'status'];
+    protected $fillable = ['title', 'description'];
 }

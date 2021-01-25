@@ -13,18 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-// Route::get('{any}', function () {
-//     return view('app');
-// })->where('any', '.*');
-
-// PERSONS
-Route::get('/persons', 'PersonsController@somethingPersons');
-Route::get('/persons/{id}', 'PersonsController@somethingPersons');
-Route::post('/persons', 'PersonsController@somethingPersons');
-Route::put('/persons/{id}', 'PersonsController@somethingPersons');
-Route::patch('/persons/{id}', 'PersonsController@somethingPersons');
-Route::delete('/persons/{id}', 'PersonsController@somethingPersons');
+Route::get('{any}', function () {
+    return view('welcome'); // or app ??
+})->where('any', '.*');

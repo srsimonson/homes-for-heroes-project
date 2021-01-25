@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Homes For Heroes</title>
+        <title>Laravel</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -21,50 +21,7 @@
         </style>
     </head>
     <body class="antialiased">
-        <div id="app">
-            <div class="table">
-            <table>
-                <tr>
-                    <th>first_name</th>
-                    <th>last_name</th>
-                    <th>age</th>
-                    <th>phase</th>
-                    <th>status</th>
-                </tr>
-                <tr>
-                    <td>John</td>
-                    <td>Doe</td>
-                    <td>
-                        <input type="text" placeholder="[input-box]" @click.prevent="createCar()" >
-                    </td>
-                    <td>TEST</td>
-                    <td>TABLE</td>
-                </tr>
-            </table>
-            
-            <div class="title m-b-md">
-                Car
-            </div>
-            <div class="alert alert-danger" role="alert" v-bind:class="{hidden: hasError}">
-                All fields are required!
-            </div>
-            <div class="form-group">
-                <label for="make">Make</label>
-                <input type="text" class="form-control" id="make" required placeholder="Make" name="make" v-model="newCar.make">
-            </div>
-                                                    
-            <div class="form-group">
-                <label for="model">Model</label>
-                <input type="text" class="form-control" id="model" required placeholder="Model" name="model" v-model="newCar.model">
-            </div>
-
-            <button class="btn btn-primary" @click.prevent="createCar()">
-                Add Car
-            </button>
-
-            </div>
-        </div>
-        <!-- <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
+        <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
@@ -170,6 +127,6 @@
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
     </body>
 </html>

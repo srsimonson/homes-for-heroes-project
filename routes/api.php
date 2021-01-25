@@ -14,10 +14,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
+Route::get('persons', 'PersonsController@index');
+Route::group(['prefix' =>'person'], function(){
+    Route::post('create', 'PersonsController@create');
+    Route::get('edit/{id}', 'PersonsController@edit');
+    Route::post('update/{id', 'PersonsController@update');
+    Route::delete('delete/{id}', 'PersonsController@delete');
 });
-
-// Route::resource('/persons', 'PersonsController', [
-//     'except' => ['edit', 'show', 'store']
-// ]);
